@@ -27,6 +27,7 @@ namespace MetodyGIT1
 
         //Metoda1
         //Dělá pravý opak jako metoda Nejstarší
+        
         DateTime nejmladsi(DateTimePicker dt1, DateTimePicker dt2, DateTimePicker dt3)
         {
             DateTime max = dt1.Value;
@@ -34,7 +35,7 @@ namespace MetodyGIT1
             if (dt3.Value > max) max = dt3.Value;
             return max;
         }
-
+        //Metoda funguje v poradku !
         private void button1_Click(object sender, EventArgs e)
         {
             
